@@ -84,6 +84,10 @@ DATABASES = {
     }
 }
 
+DATABASES ={
+    'defult':dj_database_url.parse(os.environ.get("postgresql://neondb_owner:npg_TiZe0NnyS9Pu@ep-falling-sunset-a29jinnb.eu-central-1.aws.neon.tech/stage_sky_poise_162417"))
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
